@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import store from '../store'
-import Home from '../views/Help.vue'
+import Home from '../views/Home.vue'
 
 const routes = [
   {
@@ -15,7 +15,7 @@ const routes = [
   {
     path: '/help',
     name: 'Help',
-    component: () => import('../views/Help.vue'),
+    component: () => import('../views/Home.vue'),
     meta: {
       layout: 'main',
       auth: true,
