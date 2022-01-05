@@ -29,7 +29,16 @@ const routes = [
       layout: 'auth',
       auth: false,
     }
-  }
+  },
+  {
+    path: '/request/:id',
+    name: 'Request',
+    component: () => import('../views/Request.vue'),
+    meta: {
+      layout: 'main',
+      auth: true,
+    }
+  },
 ]
 
 const router = createRouter({

@@ -19,9 +19,9 @@
       <td>{{ currency(r.amount) }}</td>
       <td><app-status :type="r.status" /></td>
       <td>
-<!--        <router-link v-slot="{navigate}" custom :to="{name: 'Request', params: {id: r.id}}">-->
-          <button class="btn primary" @click="navigate">Открыть</button>
-<!--        </router-link>-->
+        <router-link v-slot="{navigate}" custom :to="{name: 'Request', params: {id: r.id}}">
+          <button class="btn" @click="navigate">Открыть</button>
+        </router-link>
       </td>
     </tr>
     </tbody>
