@@ -22,7 +22,7 @@
       <label for="status">Статус</label>
       <select id="status" v-model="status">
         <option value="done">Завершен</option>
-        <option value="cancelled">Завершен</option>
+        <option value="cancelled">Отменен</option>
         <option value="active">Активен</option>
         <option value="pending">Выполняется</option>
       </select>
