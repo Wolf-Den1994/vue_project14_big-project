@@ -15,7 +15,7 @@ const routes = [
   {
     path: '/help',
     name: 'Help',
-    component: () => import('../views/Home.vue'),
+    component: () => import('../views/Help.vue'),
     meta: {
       layout: 'main',
       auth: true,
